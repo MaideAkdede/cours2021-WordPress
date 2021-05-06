@@ -1,20 +1,23 @@
-/*This is the SASS file*/
-@import 'parts/reset';
+@import 'reset';
 
-body{
+body {
   background: #f2f2f2;
 }
-h1{
-  color: #f68585;
+
+h1 {
+  color: green;
 }
+
 .sro {
   position: absolute;
   overflow: hidden;
   clip: rect(0 0 0 0);
-  height: 1px;
-  width: 1px;
+  height: 1px; width: 1px;
   margin: -1px;
   padding: 0;
   border: 0;
 }
+
 @import 'parts/languages';
+@import 'parts/trips';
+@import 'parts/trip';
