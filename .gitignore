@@ -1,12 +1,13 @@
 /*
-!/wp-content
-/wp-content/*
-!/wp-content/themes
-/wp-content/themes/*
-!/wp-content/themes/test
-!/wp-content/themes/test/public/*
 
 !.gitignore
 !README.md
 !package.json
-!webpack.mix.json
+!webpack.mix.js
+
+!/wp-content
+/wp-content/*
+!/wp-content/themes
+/wp-content/themes/*
+!/wp-content/themes/testtheme
+/wp-content/themes/testtheme/public/*
